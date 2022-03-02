@@ -1606,3 +1606,4 @@ Received Import Request.
 Start importing Assets/Meshes/mosquetestmats/Concrete_Scored_Jointless.mat using Guid(b7557981fb837a141b85598536c21680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8a8de7a6b7e86d79003d1bca6dd8b') in 0.070077 seconds 
   Import took 0.076597 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
