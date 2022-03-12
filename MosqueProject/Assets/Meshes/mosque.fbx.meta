@@ -3,7 +3,22 @@ guid: 2c3f17ee0d7854f42b6f452b7ecaa255
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_000
+    second: {fileID: 2100000, guid: 3cbd58ea9b7f9574fa848a877cae4acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: 5eabece8490ee2043a158349867523fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrayerRug
+    second: {fileID: 2100000, guid: 6fdb3e36e04ca6f49a1851e9286300a7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
