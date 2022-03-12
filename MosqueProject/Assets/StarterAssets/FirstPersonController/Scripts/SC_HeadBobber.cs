@@ -1,10 +1,11 @@
 using UnityEngine;
 
+
 public class SC_HeadBobber : MonoBehaviour
 {
     public float walkingBobbingSpeed = 14f;
     public float bobbingAmount = 0.05f;
-    public FirstPersonController controller;
+    public SC_CharacterController controller;
 
     float defaultPosY = 0;
     float timer = 0;
