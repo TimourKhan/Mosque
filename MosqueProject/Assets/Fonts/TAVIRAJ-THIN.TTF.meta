@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d11aff5c48d66eb4c9328874ddb3e41d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Taviraj
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 91aec11b8d02f904381fccfd682c3e18, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
