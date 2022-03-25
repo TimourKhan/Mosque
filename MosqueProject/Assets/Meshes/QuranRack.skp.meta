@@ -28,7 +28,7 @@ SketchUpImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _Beige_1
-    second: {fileID: 2100000, guid: fd9f11dada7fdc143ba3f4fddf2c44c4, type: 2}
+    second: {fileID: 5763734741682273259, guid: 15ddb1dcc19861b4984c3d60be711168, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
