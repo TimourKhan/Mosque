@@ -18,7 +18,7 @@ public class Reticle : MonoBehaviour
     private void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 3f))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 4f))
         {
             if (hit.transform.gameObject.CompareTag("Object"))
             {
