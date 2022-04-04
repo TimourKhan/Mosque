@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Color_M09
+    second: {fileID: 2100000, guid: 3f438879d10667343ab872e253d427dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: FrontColor
     second: {fileID: 2100000, guid: 2da392c2ee96fe74ab9da97647186229, type: 2}
   - first:
@@ -59,6 +64,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: greywood
     second: {fileID: 2100000, guid: b1da087343e3a8a4194650d33755d441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tilepattern
+    second: {fileID: 2100000, guid: 2759c0b0a397952438ab8eb4d6c6b56c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
