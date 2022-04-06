@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class HeadBobbing : MonoBehaviour
 {
     [Header("Transform references")]
@@ -19,6 +20,7 @@ public class HeadBobbing : MonoBehaviour
     public bool isWalking;
     private float walkingTime;
     private Vector3 targetCameraPosition;
+
 
     // Update is called once per frame
     private void Update()

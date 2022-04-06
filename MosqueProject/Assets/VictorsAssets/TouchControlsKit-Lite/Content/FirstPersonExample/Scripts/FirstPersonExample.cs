@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using TouchControlsKit;
 
+
 namespace Examples
 {
+    [RequireComponent(typeof(HeadBobbing))]
+
     public class FirstPersonExample : MonoBehaviour
     {
         bool binded;
@@ -12,8 +15,12 @@ namespace Examples
         bool jump, prevGrounded, isPorjectileCube;
         float weapReadyTime;
         bool weapReady = true;
+        private HeadBobbing hb;
 
-
+        private void Start()
+        {
+            hb = GetComponent<HeadBobbing>();
+        }
         // Awake
         void Awake()
         {
@@ -48,6 +55,7 @@ namespace Examples
 
             Vector2 look = TCKInput.GetAxis( "Touchpad" );
             PlayerRotation( look.x, look.y );
+
         }
 
         // FixedUpdate
@@ -85,15 +93,26 @@ namespace Examples
                 isPorjectileCube = !isPorjectileCube;
             }
 
-            if( grounded )            
-                moveDirection *= 3f;
+            if (grounded)
+            { 
+              moveDirection *= 3f;
+              
+            }
+
             
+
             controller.Move( moveDirection * Time.fixedDeltaTime );
 
-            if( !prevGrounded && grounded )
+            if (!prevGrounded && grounded)
+            {
                 moveDirection.y = 0f;
+                
+            }
 
-            prevGrounded = grounded;
+
+                prevGrounded = grounded;
+
+            
         }
 
         // PlayerRotation
