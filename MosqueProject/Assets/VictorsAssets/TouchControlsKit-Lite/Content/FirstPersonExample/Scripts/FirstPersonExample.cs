@@ -48,10 +48,10 @@ namespace Examples
                 Jumping();
             }
 
-            if( TCKInput.GetAction( "fireBtn", EActionEvent.Press ) )
+            /*if( TCKInput.GetAction( "fireBtn", EActionEvent.Press ) )
             {
                 PlayerFiring();
-            }
+            }*/
 
             Vector2 look = TCKInput.GetAxis( "Touchpad" );
             PlayerRotation( look.x, look.y );

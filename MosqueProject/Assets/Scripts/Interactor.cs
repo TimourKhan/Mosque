@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using TouchControlsKit;
 
 public class Interactor : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class Interactor : MonoBehaviour
                 onInteract = hit.collider.GetComponent<Interactable>().onInteract;
                 
                 if(Input.GetKeyDown(KeyCode.E))
+                {
+                    onInteract.Invoke();
+                }
+
+                if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
                 {
                     onInteract.Invoke();
                 }
