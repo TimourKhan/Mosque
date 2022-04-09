@@ -32,8 +32,9 @@ public class Interactor : MonoBehaviour
                     onInteract.Invoke();
                 }
 
-                if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+                if(TCKInput.GetAction(("aBtn"), EActionEvent.Down))
                 {
+                    
                     onInteract.Invoke();
                 }
             }
