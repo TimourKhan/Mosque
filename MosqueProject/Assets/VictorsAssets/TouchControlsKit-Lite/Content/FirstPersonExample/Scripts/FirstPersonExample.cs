@@ -16,6 +16,7 @@ namespace Examples
         float weapReadyTime;
         bool weapReady = true;
         private HeadBobbing hb;
+        public Joystick joystick;
 
         private void Start()
         {
