@@ -43,14 +43,14 @@ Material:
     - _Ambient: 0
     - _Bevel: 1
     - _BevelClamp: 0
-    - _BevelOffset: -0.03
+    - _BevelOffset: -0.105
     - _BevelRoundness: 0
-    - _BevelWidth: 0
+    - _BevelWidth: 0.02
     - _BumpFace: 0
     - _BumpOutline: 0
     - _ColorMask: 15
     - _CullMode: 0
-    - _Diffuse: 0.491
+    - _Diffuse: 0
     - _FaceDilate: 0
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
@@ -67,7 +67,7 @@ Material:
     - _OutlineUVSpeedY: 0
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
-    - _Reflectivity: 9.38
+    - _Reflectivity: 15
     - _ScaleRatioA: 0.8333333
     - _ScaleRatioB: 0.6770833
     - _ScaleRatioC: 0.6770833
@@ -101,7 +101,7 @@ Material:
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5803922}
   m_BuildTextureStacks: []
 --- !u!114 &11400000
 MonoBehaviour:
