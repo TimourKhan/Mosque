@@ -61,6 +61,7 @@ public class Pause : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
+        //dimmer.SetActive(false);
     }
 
     public void ReturnToPause()
