@@ -32,7 +32,7 @@ public class Interactor : MonoBehaviour
                     onInteract.Invoke();
                 }
 
-                if(TCKInput.GetAction(("aBtn"), EActionEvent.Down))
+                if(TCKInput.GetAction(("aBtn"), EActionEvent.Up))
                 {
                     
                     onInteract.Invoke();

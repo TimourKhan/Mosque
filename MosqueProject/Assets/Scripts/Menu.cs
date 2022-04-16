@@ -9,12 +9,12 @@ public class Menu : MonoBehaviour
     public GameObject loading;
     public Slider slider;
 
-    public void Next()
+    public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadSceneAsync(1);
     }
 
-/*public void LoadLevel(int sceneIndex)
+public void LoadLevel(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
        
@@ -32,5 +32,5 @@ public class Menu : MonoBehaviour
             yield return null;
         
         }
-    }*/
+    }
 }
