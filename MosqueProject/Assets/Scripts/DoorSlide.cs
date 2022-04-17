@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundPlayer : MonoBehaviour
+public class DoorSlide : MonoBehaviour
 {
+    public AudioSource audioSourceOne;
+    public AudioSource audioSourceTwo;
 
-    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,13 @@ public class SoundPlayer : MonoBehaviour
         
     }
 
-    public void PlaySound()
+    public void DoorSlideOpen()
     {
-        audioSource.Play();
+        audioSourceOne.Play();
+    }
+
+    public void DoorSlideClose()
+    {
+        audioSourceTwo.Play();
     }
 }

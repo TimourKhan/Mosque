@@ -33,6 +33,18 @@ SpriteAtlas:
       m_Overridden: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 33
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
       padding: 4
@@ -48,38 +60,56 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 6710093112c546345b9128b3ff6668c3, type: 3}
     - {fileID: 2800000, guid: cd3b684721c2b114392d7c1280fb564a, type: 3}
     - {fileID: 2800000, guid: d5bdff26cf2392d489aba91b3946913b, type: 3}
+    - {fileID: 2800000, guid: 282e5f50ea41e004bac323ca257a8aa2, type: 3}
+    - {fileID: 2800000, guid: bb59fa5381fed8840824c547dcd72adb, type: 3}
+    - {fileID: 2800000, guid: ab5f3d858d932364e86d72a67e4fa570, type: 3}
+    - {fileID: 2800000, guid: 75a30f1d7c6f40b49b21e83a4e9a8078, type: 3}
     - {fileID: 2800000, guid: d86dbd8283b21a44bbc387d32e82b620, type: 3}
     - {fileID: 2800000, guid: 6659517e9f6a72e44a2a904ab44efb95, type: 3}
     - {fileID: 2800000, guid: c055d9d4e91c93b4cb048034285e1195, type: 3}
     - {fileID: 2800000, guid: 69eac2182038909409c8c51f5380728c, type: 3}
     - {fileID: 2800000, guid: e6eca7a5cd10e32419f3b47d3bff29f1, type: 3}
     - {fileID: 2800000, guid: 99fe8ddfa06474e47a02e3d5fa9a51fc, type: 3}
+    - {fileID: 2800000, guid: 327ca570e5056c8499dcca4c32c344f3, type: 3}
+    - {fileID: 2800000, guid: ae7481fdcd8232045a457e2530ec67d1, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 282e5f50ea41e004bac323ca257a8aa2, type: 3}
+  - {fileID: -1843197933104017171, guid: 327ca570e5056c8499dcca4c32c344f3, type: 3}
   - {fileID: -2576023137440582333, guid: 6710093112c546345b9128b3ff6668c3, type: 3}
   - {fileID: 21300000, guid: d86dbd8283b21a44bbc387d32e82b620, type: 3}
   - {fileID: 21300000, guid: c5b377c26ecae5b4eb90a1f4526e08ca, type: 3}
+  - {fileID: 21300000, guid: bb59fa5381fed8840824c547dcd72adb, type: 3}
   - {fileID: -3387753460146381283, guid: c055d9d4e91c93b4cb048034285e1195, type: 3}
+  - {fileID: 6944020032752986843, guid: ab5f3d858d932364e86d72a67e4fa570, type: 3}
   - {fileID: 21300000, guid: e6eca7a5cd10e32419f3b47d3bff29f1, type: 3}
   - {fileID: 21300000, guid: d5bdff26cf2392d489aba91b3946913b, type: 3}
   - {fileID: 21300000, guid: cd3b684721c2b114392d7c1280fb564a, type: 3}
   - {fileID: 21300000, guid: 69eac2182038909409c8c51f5380728c, type: 3}
   - {fileID: 21300000, guid: 58c2b34879650cc4590ebb3e52cacb4e, type: 3}
+  - {fileID: 21300000, guid: 75a30f1d7c6f40b49b21e83a4e9a8078, type: 3}
+  - {fileID: 21300000, guid: ae7481fdcd8232045a457e2530ec67d1, type: 3}
   - {fileID: 21300000, guid: 6659517e9f6a72e44a2a904ab44efb95, type: 3}
   - {fileID: 21300000, guid: 99fe8ddfa06474e47a02e3d5fa9a51fc, type: 3}
   m_PackedSpriteNamesToIndex:
+  - kaabaempty
+  - square_0
   - dialog_0
   - logo
   - crosshair-01
+  - kaabafilled
   - menubg_0
+  - loadingbar_0
   - pausebutton
   - joystick
   - dialogmask
   - minbar
   - button
+  - logo-02
+  - UIblocker
   - logotext
   - pausedialog-05
   m_RenderDataMap: {}
