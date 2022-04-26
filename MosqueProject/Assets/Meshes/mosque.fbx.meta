@@ -22,11 +22,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M_0046_Gold
-    second: {fileID: 2100000, guid: 97116325cb720f148a046ebd3cb9c408, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Polished_Concrete_New
     second: {fileID: 2100000, guid: 27d6ecbc76401b849b78cbb546b66ee7, type: 2}
   - first:
@@ -71,7 +66,7 @@ ModelImporter:
     second: {fileID: 2100000, guid: 2759c0b0a397952438ab8eb4d6c6b56c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
+    materialName: 1
     materialSearch: 2
     materialLocation: 1
   animations:

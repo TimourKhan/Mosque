@@ -96,7 +96,7 @@ namespace Examples
 
             if (grounded)
             { 
-              moveDirection *= 3f;
+              moveDirection *= 4f;
               
             }
 

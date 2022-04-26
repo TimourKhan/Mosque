@@ -13,7 +13,7 @@ SketchUpImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Leather Blue
-    second: {fileID: 2800000, guid: 6f8283d0d702d714cb832cbaf8ae07bb, type: 3}
+    second: {fileID: 2800000, guid: 00fc8f0bc9eff9249ad9aeb0ad1de8ac, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
